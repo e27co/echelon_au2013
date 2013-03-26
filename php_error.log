@@ -1,0 +1,5 @@
+[25-Feb-2013 22:50:16] PHP Parse error:  syntax error, unexpected ';' in D:\xampp\htdocs\wordpress-3.5.1\wordpress\wp-content\themes\echelon2013\header.php on line 45
+[25-Feb-2013 22:51:12] PHP Parse error:  syntax error, unexpected ';', expecting ')' in D:\xampp\htdocs\wordpress-3.5.1\wordpress\wp-content\themes\echelon2013\header.php on line 45
+[25-Feb-2013 22:55:01] PHP Fatal error:  Call to undefined function bloginfo() in D:\xampp\htdocs\wordpress-3.5.1\wordpress\wp-content\themes\echelon2013\header.php on line 5
+[25-Feb-2013 22:55:21] PHP Fatal error:  Call to undefined function bloginfo() in D:\xampp\htdocs\wordpress-3.5.1\wordpress\wp-content\themes\echelon2013\header.php on line 5
+[26-Feb-2013 13:09:06] PHP Parse error:  syntax error, unexpected T_VARIABLE in D:\xampp\htdocs\wordpress-3.5.1\wordpress\wp-content\themes\echelon2013\single-echelon_speaker.php on line 37

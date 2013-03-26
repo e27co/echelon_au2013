@@ -1,0 +1,649 @@
+/* ECHELON Website */
+/* Developer: Jay Carreon and Jairus Bondoc */
+
+a, a:hover { color:#55B72B }
+
+a:hover { text-decoration:underline }
+
+.navbar .nav > li > a:hover { color:#cccccc }
+
+.navbar .nav .current-menu-item > a,
+.navbar .nav .current-menu-item > a:hover,
+.navbar .nav .current-menu-item > a:focus {
+background-color:#ec6c25;
+color:#ffffff;
+} 
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover,
+.navbar .nav .active > a:focus {
+background-color:#ec6c25;
+color:#ffffff;
+} 
+
+ul li { list-style-type:none }
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    height: 100%;
+    line-height: 18px;
+    margin: 0;
+}
+
+.header, .navbar-border {
+    background-color: #2f2f2e;
+    color: #FFFFFF;
+    display: block;
+    height: 200px;
+}
+
+.header-row {
+  height:220px;
+}
+
+.navbar-inner.navbar-main {
+  background:none;
+  width:940px;
+  margin:0 auto;
+  border:none;
+}
+
+.navbar .register {
+    background: url("../img/reg_big_btn.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 61px;
+    position: relative;
+    text-indent: -9999px;
+    top: -5px;
+    width: 220px;
+}
+
+.showcase {
+    background-color: #2F2F2E;
+    border-bottom: 8px solid #000000;
+    height: 355px;
+    margin: 0 auto 25px;
+    position: relative;
+    width: 100%;
+}
+
+.header > .inner {
+    margin: 0 auto;
+    padding-top: 14px;
+    width: 940px;
+}
+
+.inner > .branding {
+    width:281px;
+    float:left;
+}
+
+.inner > .banner-wrapper {
+     left: 439px;
+    position: relative;
+    top: -14px;
+    width: 500px;
+}
+
+.banner-wrapper > .banner-1 {
+    background:url('../img/top_1_banner.png') no-repeat scroll 0 0 transparent;
+    text-indent:-9999px;
+    height:200px
+}
+
+h1.logo a { 
+  background:url('../img/logo.png') no-repeat scroll 0 0 transparent;
+  width:280px;
+  height:53px;
+  text-indent:-9999px;
+  margin:0;
+    display:inline-block
+
+}
+
+.branding > .year {
+    font-family: Blair, Helvetica, Arial, sans-serif;
+    font-size:30px;
+}
+
+.branding > .date {
+    border-top:1px solid #ffffff;
+    margin-top:10px;
+    padding:10px 0 10px 0;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.branding > p {
+    font-size:18px;
+    font-weight:normal;
+}
+
+.slogan > em {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-left: 80px;
+    padding-top: 98px;
+    position: absolute;
+    z-index: 500;
+}
+
+.social-top {
+    position:relative;
+    top:-159px;
+    right:-500px;
+    display:inline-block;
+    background-color:#636360
+}
+
+.social-top ul li {
+    border-bottom:1px solid #55B72B;
+    margin-left:-25px
+}
+
+.social-top ul li.last {
+    border:none
+}
+
+.social-top li a.facebook, .social-top li a.twitter, .social-top li a.google, .social-top li a.linkedin{
+    width:40px;
+    height:30px;
+    display:inline-block;
+    background:url('../img/small_icons.png') no-repeat scroll 0 0 transparent;
+    text-indent:-9999px
+}
+
+.social-top li a.facebook { background-position: 0 -5px}
+.social-top li a.twitter { background-position: 0 -94px}
+.social-top li a.google { background-position: 0 -180px}
+.social-top li a.linkedin { background-position: 0 -266px; }
+
+.navbar .nav > li > a {
+    color: #FFFFFF;
+    float: none;
+    font-size: 16px;
+    padding: 16px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.banner-rotate {
+    width:490px;
+    float:left;
+    padding:25px 0 0 20px
+}
+
+.banner-image-1 {
+    background:url('../img/banner_rotate_img.png') no-repeat scroll 0 0 transparent;
+    width:490px;
+    height:300px;
+    text-indent:-9999px;
+}
+
+.video-wrapper {
+    background-color: #FFFFFF;
+    height:337px;
+    width:449px;
+    float:left
+}
+
+.highlights h2 {
+    font-weight:normal;
+    font-size:34px;
+    border-bottom: 1px solid #55B72B;
+    padding-bottom:10px
+}
+
+.highlights p {
+    font-size:15px;
+    line-height:24px
+}
+
+.wrapper-speakers p, .wrapper-crew p {
+    line-height:20px
+}
+
+.wrapper-speakers em, .wrapper-crew em {
+    font-size:15px;
+    font-style:normal;
+    font-weight:bold
+}
+
+
+.par-comment {
+    background-color:#2f2f2e;
+    color:#ffffff;
+    height:150px;
+    width:699px;
+    margin-top:20px
+}
+
+
+.wrapper-speakers img.rounded, .wrapper-crew img.rounded {
+    background-clip:padding-box;
+    border-radius:50%;
+    height:auto;
+}
+
+.view-more {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+
+
+.startups-img, .satellites-img {
+    background:url('../img/startup_talk.png') no-repeat scroll 0 0 transparent;
+    height:233px;
+    width:342px;
+    text-indent:-9999px;
+    padding-bottom:15px
+}
+
+.satellites-img {
+    background:url('../img/satellites_talk.png') no-repeat scroll 0 0 transparent;
+}
+
+.nu-box {
+    background-color:#ebeeee;
+    padding:0 18px 10px 18px;
+}
+
+.nu-box h3, .subscribe h3, .about-small h3, .social-footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.green-quote {
+    background: url("../img/small_icons.png") no-repeat scroll 0 -457px transparent;
+    display: inline-block;
+    float: left;
+    height: 26px;
+    margin-top: 10px;
+    padding-left: 5px;
+    text-indent: -9999px;
+    width: 40px;
+}
+
+.client-badge {
+    background: url("../img/badge.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    float: left;
+    height: 70px;
+    margin-top: 36px;
+    text-indent: -9999px;
+    width: 70px;
+}
+
+.sayings {
+    float: left;
+    left: -34px;
+    margin-left: 15px;
+    margin-top: 36px;
+}
+
+.register-small a{
+    background: url("../img/reg_earlybird_btn.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    float: left;
+    height: 93px;
+    margin-left: 46px;
+    margin-top: 28px;
+    text-indent: -9999px;
+    width: 230px;
+}
+
+.twitter-btn {
+    background:url('../img/twitter_btn.png') no-repeat scroll 0 0 transparent;
+    height:20px;
+    width:189px;
+    text-indent:-9999px;
+    display:inline-block
+}
+
+.socials {
+    border-top: 2px solid #55B72B;
+    padding-top: 30px;
+}
+
+.socials em { font-size:11px; font-weight:normal }
+.socials p { font-weight:bold }
+
+a.subscribe {
+    font-size:15px;
+}
+
+.footer-extras {
+    background-color: #ebeeee;
+    height: 210px;
+    padding-top:25px
+}
+
+.footer-extras .logo-e27 a  {
+    background: url("../img/logo_e27_big.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 61px;
+    margin-top: 12px;
+    text-indent: -9999px;
+    width: 135px;
+}
+
+ul.social-icons-footer li {
+    margin-left: -15px;
+    padding-bottom: 8px;
+}
+
+.social-icons-footer li a, .social-icons-footer li a, .social-icons-footer li a, .social-icons-footer li a {
+    color:#55B72B;
+    font-weight:bold
+}
+
+.social-icons-footer li .twitter, .social-icons-footer li .facebook, .social-icons-footer li .google, .social-icons-footer li .linkedin{
+    height:20px;
+    width:40px;
+    display:inline-block;
+    background:url('../img/small_icons.png') no-repeat scroll 0 0 transparent;
+    float:left;
+}
+
+.social-icons-footer li .twitter {
+    background-position: 0 -139px;
+}
+
+.social-icons-footer li .facebook {
+    background-position: 0 -53px;
+}
+
+.social-icons-footer li .google {
+    background-position: 0 -225px;
+}
+
+.social-icons-footer li .linkedin {
+    background-position: 0 -314px;
+}
+
+.about-small p {
+    font-weight:normal;
+    font-size:15px;
+    line-height:22px
+}
+
+.subscribe input {
+    background-color: #EEEEEE;
+    height: 25px;
+    width: 230px;
+}
+
+footer.footer {
+    background-color:#2f2f2e;
+    border-top:5px solid #cfd1d2;
+    height:50px
+}
+
+.side-pillar {
+    background-color: #FFFFFF;
+    border: 5px solid #EBEEEE;
+    padding-left: 8px;
+    width: 183px;
+    margin-top:25px
+}
+
+.head-pillar, .inner-pillar {
+    background: url("../img/side_pillar_head.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 32px;
+    left: -17px;
+    position: relative;
+    top:-10px;
+    width: 210px;
+}
+
+.head-pillar p, .inner-pillar p {
+    color:#ffffff;
+    font-size:14px;
+    text-align:center;
+    padding-top:4px
+}
+
+.inner-pillar {
+    margin-top: 20px;
+    top: 0;
+}
+
+.side-pillar li a.blackberry, .side-pillar li a.microsoft,
+.side-pillar li a.gb, .side-pillar li a.amazon,
+.side-pillar li a.dena, .side-pillar li a.innov8,
+.side-pillar li a.google, .side-pillar li a.lenovo,
+.side-pillar li a.plug-play, .side-pillar li a.roof,
+.side-pillar li a.doob, .side-pillar li a.cbs, .side-pillar li a.zdnet,
+.side-pillar li a.startup-dating, .side-pillar li a.startup-weekend,
+.side-pillar li a.tech65, .side-pillar li a.techgoondu{
+    background:url('../img/logo_comps.png')no-repeat scroll 0 0 transparent;
+    width:200px;
+    text-indent:-9999px;
+    display:inline-block
+}
+
+.side-pillar li a.blackberry { background-position: 0 -16px; height:45px }
+.side-pillar li a.microsoft { background-position: 0 -65px; height:45px }
+.side-pillar li a.gb { background-position: 0 -119px; height: 100px }
+.side-pillar li a.amazon { background-position: 0 -228px; height: 70px }
+.side-pillar li a.dena { background-position: 0 -313px; height: 50px; }
+.side-pillar li a.innov8 { background-position: 0 -371px; height: 65px; }
+.side-pillar li a.google { background-position: 0 -448px; height: 60px; }
+.side-pillar li a.lenovo { background-position: 0 -524px; height: 45px; }
+.side-pillar li a.plug-play { background-position: 0 -581px; height: 72px; }
+.side-pillar li a.roof { background-position: 0 -665px; height: 80px; }
+.side-pillar li a.doob { background-position: 0 -756px; height: 90px; }
+.side-pillar li a.cbs { background-position: 0 -851px; height: 63px; }
+.side-pillar li a.zdnet { background-position: 0 -925px; height: 60px; }
+.side-pillar li a.startup-dating { background-position: 0 -999px; height: 68px; }
+.side-pillar li a.startup-weekend { background-position: 0 -1071px; height: 68px; }
+.side-pillar li a.tech65 { background-position: 0 -1143px; height: 68px; }
+.side-pillar li a.techgoondu { background-position: 0 -1221px; height: 68px; }
+
+
+.side-pillar ul {
+    margin-left:-12px;
+}
+
+.side-pillar li {
+    padding:10px
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.carousel-linked-nav {
+  width: 120px;
+  margin-bottom: 20px;   
+}
+
+.wrapper-crew .social a.twitter, .wrapper-crew .social a.facebook, .wrapper-crew .social a.linkedin {
+    background:url('../img/small_icons.png') no-repeat scroll 0 0 transparent;
+    height:35px;
+    width:40px;
+    display:inline-block;
+    text-indent:-9999px;
+}
+
+.wrapper-crew .social a.twitter { background-position: -4px -528px; }
+.wrapper-crew .social a.facebook {  background-position: -4px -642px; }
+.wrapper-crew .social a.linkedin { background-position: -4px -583px; }
+
+.crew-indiv {
+    padding-top:20px;
+    position:absolute;
+    left:140px
+}
+
+.divider-agenda {
+    background:url('../img/divider_agenda.png')no-repeat scroll 0 0 transparent;
+    height:95px;
+    width:700px;
+    display:block;
+    margin-top:40px
+}
+
+.divider-agenda h2 {
+    border:none;
+    padding:0px;
+}
+
+table.agenda {
+    border-bottom: 2px solid #666666;
+    border-top: 2px solid #666666;
+    font-size: 14px;
+    margin-bottom: 40px;
+    width: 100%;
+    line-height:20px
+}
+
+table.agenda tr {
+    border-top:1px solid #cccccc;
+}
+
+table.agenda td.time {
+    vertical-align:top
+}
+
+table.agenda td p.topic {
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:0px
+}
+
+table.agenda td span.keynote, table.agenda td span.parallel {
+    padding:2px;
+    background-color:#555555;
+    color:#ffffff;
+    position:relative;
+    left:10px;
+    text-transform:uppercase;
+    font-weight:normal;
+    font-size:11px;
+    border:3px solid #55b72b;
+}
+
+table.agenda td span.parallel {
+    border:3px solid #cccccc
+}
+
+
+/* special fonts */
+
+@font-face {
+  font-family:Blair;
+  src:url('../font/blairmditcttmedium.ttf');
+}
+
+/* helpers */
+
+.navbar-border {
+  height: 4px
+}
+
+.add-top {
+    padding-top:20px
+}
+
+.add-top-med, .add-top-m-med {
+    padding-top:50px !important
+}
+
+.add-top-small {
+    padding-top:15px
+}
+
+.add-top-xxs {
+    padding-top:5px
+}
+
+.add-bot {
+    padding-bottom:20px
+}
+
+.add-bot-small {
+    padding-bottom:15px
+}
+
+.mar-bot {
+    margin-bottom:20px
+}
+
+.add-left {
+    padding-left:20px;
+}
+
+.add-left-med {
+    padding-left:50px
+}
+
+.add-bot-med {
+    padding-bottom:50px
+}
+
+.sayings p {
+    line-height:20px
+}
+
+.comment-wrapper {
+    padding-left:10px;
+}
+
+.txt-c {
+    text-align:center !important
+}
+
+.txt-l {
+    text-align:left !important
+}
+
+.txt-bold {
+    font-weight:bold
+}
+
+.txt-small {
+    font-size:11px
+}
+
+.inner-social-footer {
+    border-left:2px solid #55B72B;
+}
+
+.c-text {
+    color:#55B72B;
+}
+
+.pos-ab {
+    position:absolute
+}
+
+.pos-rel {
+    position:relative
+}
+
+.pos-abs {
+    position:relative
+}
+
+/* counter for the logo width in the footer */
+.span3-ftr-cnter {
+    width:190px
+}
+
+
+
+
+
+
+
