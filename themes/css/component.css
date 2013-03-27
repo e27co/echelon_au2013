@@ -142,7 +142,7 @@ body {
 }
 
 .banner-wrapper > .banner-1 {
-    background:url('../img/top_1_banner.png') no-repeat scroll 0 0 transparent;
+    background:url('../img/opera-house.png') no-repeat scroll 0 0 transparent;
     text-indent:-9999px;
     height:200px
 }
@@ -177,12 +177,12 @@ h1.logo a {
 
 
 .slogan > em {
-    float: left;
+       float: left;
     font-size: 20px;
     font-weight: normal;
     line-height: 25px;
-    padding-left: 80px;
-    padding-top: 98px;
+    padding-left: 30px;
+    padding-top: 113px;
     position: absolute;
     z-index: 500;
 }

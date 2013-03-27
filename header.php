@@ -125,12 +125,12 @@
             <h1 class="logo">
               <a href="<?php echo home_url('/'); ?>" title="Echelon 2013" alt="Echelon" >Echelon</a>
             </h1>
-            <span class="year">2013</span>
-            <div class="date">4-5 June 2013</div>
-            <p>Singapore</p>
+             <span class="year" style="color:#ef0813">IGNITE</span>
+            <div class="date">8th May 2013</div>
+            <p>Australia</p>
           </div>
           <div class="slogan">
-            <em>Driving Asia's<br/>Tech Industry Forward</em>
+            <em>Brought to you by  <br/>Optus and Singtel Innov8</em>
           </div>
           <div class="banner-wrapper">
             <div class="banner-1">Banner 1</div>
