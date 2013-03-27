@@ -1724,7 +1724,7 @@ class E_Sponsor extends Echelon {
 			<b>Category<br /></b>
 			<select name='type' id='xtype'>
 				<option value='Strategic Partners'>Strategic Partners</option>
-				<option value='Premier Sponsors'>Premier Sponsors</option>
+				<option value='Powered By'>Powered By</option>
 				<option value='Supporting Sponsors'>Supporting Sponsors</option>
 				<option value='Regular Sponsors'>Regular Sponsors</option>
 				<option value='Tech Sponsors'>Tech Sponsors</option>
