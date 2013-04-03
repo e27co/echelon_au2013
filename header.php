@@ -130,7 +130,7 @@
             <p>Australia</p>
           </div>
           <div class="slogan">
-            <em>Brought to you by  <br/>Optus-Innov8</em>
+            <em>Brought to you by  <br/>Optus &amp; Singtel Innov8</em>
           </div>
           <div class="banner-wrapper">
             <div class="banner-1">Banner 1</div>
